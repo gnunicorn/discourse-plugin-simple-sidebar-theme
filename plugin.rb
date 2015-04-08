@@ -3,5 +3,4 @@
 # version: 0.1
 # authors: Benjamin Kampmann
 
-
-register_asset "javascripts/discourse/templates/application.hbs"
+register_asset "javascripts/discourse/templates/discovery.hbs"
