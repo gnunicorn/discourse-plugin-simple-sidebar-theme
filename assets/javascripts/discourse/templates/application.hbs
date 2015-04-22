@@ -2,9 +2,10 @@
 
 <div id='main-outlet' {{bind-attr class=backgroundClass}}>
     <div {{bind-attr class=":global-side-bar :side-bar-wrap hideSidebar:no-side-bar"}}>
-        <aside class="side-bar">{{view Discourse.SidebarView}}</aside>
+        <aside class="side-bar-left">{{view "sidebar-left"}}</aside>
         <section class="main-outlet-wrap">{{outlet}}</section>
-  </div>
+        <aside class="side-bar-right">{{view "sidebar-right"}}</aside>
+    </div>
   {{render "user-card"}}
 </div>
 
@@ -15,4 +16,3 @@
 {{render "modal"}}
 {{render "topic-entrance"}}
 {{render "composer"}}
-

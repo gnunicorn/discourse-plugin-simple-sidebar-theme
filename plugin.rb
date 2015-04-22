@@ -1,7 +1,6 @@
-# name: simple sidebar plugin
-# about: shows a curated home in a different style
-# version: 0.1
-# authors: Benjamin Kampmann
-
+# name: sidebar plugin
+# about: shows a sidebar on the right
+# version: 0.2
+# authors: Angus McLeod
 
 register_asset "javascripts/discourse/templates/application.hbs"
